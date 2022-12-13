@@ -5,6 +5,6 @@ const products = [{name: 'Gorra de rodilla', sellCount: 10},{name: 'Pantalón de
 let totalSellCount = 0;
 
 for (let i = 0; i < products.length; i++) {
-    totalSellCount += products[i].sellCount
+    totalSellCount += products[i].sellCount;
 }
 console.log(totalSellCount);
