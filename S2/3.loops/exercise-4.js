@@ -2,17 +2,13 @@
 
 let toys = [{id: 5, name: 'Buzz MyYear'}, {id: 11, name: 'Action Woman'}, {id: 23, name: 'Barbie Man'}, {id: 40, name: 'El gato con Guantes'},{id: 40, name: 'El gato felix'}];
 
-for (let i = toys.length-1; i > 0; i--) {
-    if (toys[i].name.includes('gato')){
-        toys[i].splice(toys, 1);
+let contador = [];
+let sinGatos = [];
+
+for (const toy of toys) {
+    if (toy.name.includes('gato')){
+        contador.push(toy);
     }
+    else sinGatos.push(toy);
 }
-console.log(toys);
-
-
-// for (let toy of toys) {
-//     if (toy.name.includes('gato')){
-//         toys.splice(toy, 1);
-//     }
-// }
-// console.log(toys);
+console.log(sinGatos);
