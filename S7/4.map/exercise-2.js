@@ -2,4 +2,12 @@
 
 const users = [{id: 1, name: 'Abel'}, {id:2, name: 'Julia'},{id:3, name: 'Pedro'}, {id:4, name: 'Amanda'}];
 
-let newArray
+let newArray = users.map (user => {
+    //console.log(user);
+    if (user.name[0].toLowerCase() === 'a'){
+        user.name = 'Anacleto';
+        //console.log(user);
+    }
+    return user
+})
+console.log(newArray);
