@@ -31,7 +31,9 @@
      },
  ]
 
-let contador = 0;
-
-
+for (let i = 0; i < users[i].length; i++) {
+    for (const sound in users[i].favoritesSounds.waves.volume) {
+        console.log(sound);
+    }
+}
 

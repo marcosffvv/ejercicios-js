@@ -12,3 +12,4 @@ for (const toy of toys) {
     else sinGatos.push(toy);
 }
 console.log(sinGatos);
+console.log(contador);
