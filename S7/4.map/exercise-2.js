@@ -8,6 +8,6 @@ let newArray = users.map (user => {
         user.name = 'Anacleto';
         //console.log(user);
     }
-    return user
+    return user.name
 })
-console.log(newArray);
+console.log(newArray); 

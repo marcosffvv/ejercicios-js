@@ -3,14 +3,23 @@ Dado el siguiente javascript usa forof y forin para hacer la media del volumen d
 
 ```js
 const users = [
-    {name: 'Manolo el del bombo',
-     favoritesSounds: {
-        waves: {format: 'mp3', volume: 50},
-        rain: {format: 'ogg', volume: 60},
-        firecamp: {format: 'mp3', volume: 80},
-    }
-
+    {
+    name: "Manolo el del bombo",
+    favoritesSounds: {
+      waves: {
+        format: "mp3",
+        volume: 50,
+      },
+      rain: {
+        format: "ogg",
+        volume: 60,
+      },
+      firecamp: {
+        format: "mp3",
+        volume: 80,
+      },
     },
+  },
     {name: 'Mortadelo',
      favoritesSounds: {
         waves: {format: 'mp3', volume: 30},

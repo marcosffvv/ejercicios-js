@@ -2,6 +2,5 @@
 
 const users = [{id: 1, name: 'Abel'}, {id:2, name: 'Julia'},{id:3, name: 'Pedro'}, {id:4, name: 'Amanda'}];
 
-const arrayMap = users.map(noEntiendoEstaParte => noEntiendoEstaParte.name);
-
-console.log(arrayMap);
+const profes = users.map((name) => name.name);
+console.log(profes);
