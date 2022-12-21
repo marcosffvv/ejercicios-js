@@ -7,4 +7,3 @@ const imprime = (event) => {
 }
 
 boton$$.addEventListener('click', imprime);
-
