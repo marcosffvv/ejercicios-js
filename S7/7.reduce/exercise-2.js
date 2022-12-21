@@ -17,8 +17,7 @@ let totalScore = exams.reduce (function (acumulador, exam){
     if (exam.score >= 5) {
         return acumulador + exam.score
     }
-    else {
         return acumulador
-    };}, 0);
+    }, 0);
 
 console.log(totalScore);
